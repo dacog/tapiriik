@@ -1,0 +1,282 @@
+repo_name: dacog/tapiriik
+report_id: 35f90e52e119207fb768ed358637dd06
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T06:39:01+00:00'
+requested_by: cpfair
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dacog/tapiriik
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dacog/tapiriik
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/dacog/tapiriik
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Matthew Duggan
+  last_updated_on: 2015-03-08 23:13:07.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 2.10.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin
+  last_updated_on: 2019-06-08 15:10:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dacog/tapiriik
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: cpf
+  last_updated_on: 2013-03-11 20:21:30.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Matthew Duggan
+  last_updated_on: 2015-03-08 23:13:07.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Collin Fair
+  last_updated_on: 2014-04-19 01:33:20.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dacog/tapiriik
+  detection_source: Repo Metadata
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 1.8.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ryan Campbell
+  last_updated_on: 2015-06-20 03:38:00.000000000 Z
+  vulnerabilities:
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.2.25
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ryan Campbell
+  last_updated_on: 2018-08-01 02:19:03.000000000 Z
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin Fair
+  last_updated_on: 2014-03-02 03:52:06.000000000 Z
+- name: django-pipeline
+  description: Pipeline is an asset packaging library for Django
+  package_url: https://pypi.org/project/django-pipeline
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ryan Campbell
+  last_updated_on: 2015-06-20 03:38:00.000000000 Z
+- name: dropbox
+  description: Official Dropbox API Client
+  package_url: https://pypi.org/project/dropbox
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20764/default_645a8e8ea03fbd57a1abbf4130ae57007cf8eaa8.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin
+  last_updated_on: 2017-06-22 19:15:22.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: cpf
+  last_updated_on: 2013-03-11 21:55:28.000000000 Z
+- name: pycryptodome
+  description: Cryptographic library for Python
+  package_url: https://pypi.org/project/pycryptodome
+  license: BSD-3-Clause,Unlicense,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19900/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Anton Ashmarin
+  last_updated_on: 2018-03-31 13:40:48.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin Fair
+  last_updated_on: 2015-04-26 15:19:09.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin Fair
+  last_updated_on: 2013-07-17 01:11:22.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: cpf
+  last_updated_on: 2013-03-11 20:21:30.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/dacog/tapiriik/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Collin
+  last_updated_on: 2017-06-22 19:15:22.000000000 Z
